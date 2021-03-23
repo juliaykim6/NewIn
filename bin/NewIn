@@ -1,1 +1,5 @@
-puts "hello"
+#!/usr/bin/env ruby
+
+require_relative '../lib/NewIn'
+
+NewIn::CLI.new.call

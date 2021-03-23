@@ -1,8 +1,15 @@
 # frozen_string_literal: true
 
-require_relative "NewIn/version"
+require 'pry'
+require 'open-uri'
+require 'nokogiri'
 
-module NewIn
-  class Error < StandardError; end
+
+require_relative "./NewIn/version"
+require_relative "./NewIn/cli"
+
+
+#module NewIn
+  #class Error < StandardError; end
   # Your code goes here...
-end
+#end
