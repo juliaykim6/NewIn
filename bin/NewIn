@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
     #this tells bash that this is written in Ruby 
 require_relative '../lib/NewIn'
+#require '../lib/NewIn'
 
 NewIn::CLI.new.call
 # Module::Class.initialize method(class method).instance method
