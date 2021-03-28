@@ -9,7 +9,7 @@ class NewIn::CLI
         puts "\n New In:"
         @items = Item.all
         @items.each.with_index(1) do |item, x|
-            puts "#{x}. '#{item.name}' "
+            puts "#{x}. '#{item.brand}' "
         end
     end
     
